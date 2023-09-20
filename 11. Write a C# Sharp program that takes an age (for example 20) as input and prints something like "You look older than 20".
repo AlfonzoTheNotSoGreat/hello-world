@@ -1,0 +1,7 @@
+//11. Write a C# Sharp program that takes an age (for example 20) as input and prints something like "You look older than 20".
+
+Console.WriteLine("Please enter your age");
+int x = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("You look older than " + x);
+
+Console.ReadKey();
