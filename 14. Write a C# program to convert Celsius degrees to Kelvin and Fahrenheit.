@@ -1,0 +1,12 @@
+//14. Write a C# program to convert Celsius degrees to Kelvin and Fahrenheit.
+
+Console.WriteLine("Write a digit in Celsius");
+double x = Convert.ToInt32(Console.ReadLine());
+
+double kelvin = x + 273.15;
+double fahrenheit = (x * 9 / 5) + 32;
+Console.WriteLine(x + " in fahrenheit is " + fahrenheit);
+Console.WriteLine(x + " in kelvin is " + kelvin);
+
+
+Console.ReadKey();
