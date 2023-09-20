@@ -1,0 +1,15 @@
+//10. Write a C# Sharp program that takes three numbers (x,y,z) as input and outputs (x+y) *z and x*y + y*z.
+
+Console.WriteLine("Please enter a number");
+int x = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Please enter a number");
+int y = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Please enter a number");
+int z = Convert.ToInt32(Console.ReadLine());
+
+
+Console.WriteLine((x + y) * z);
+
+Console.WriteLine((x * y) + (y * z));
+
+Console.ReadKey();
