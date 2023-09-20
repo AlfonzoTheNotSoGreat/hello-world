@@ -1,0 +1,14 @@
+/*Write a C# program that takes a number as input and displays it four times in a row (separated by blank spaces),
+and then four times in the next row, with no separation. You should do it twice: Use the console.*/
+
+Console.WriteLine("Please enter a number");
+int x = Convert.ToInt32(Console.ReadLine());
+int y = 0;
+
+for (int i = 0; i < 2; i++)
+{
+    Console.WriteLine(x + " " + x + " " + x + " " + x);
+    Console.WriteLine(x +"" +x +""+ x+ ""+ x);
+}
+
+    Console.ReadKey();
