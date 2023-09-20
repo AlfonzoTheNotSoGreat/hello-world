@@ -1,0 +1,13 @@
+//15. Write a C# program that removes a specified character from a non-empty string using the index of a character.
+
+Console.WriteLine("Please enter a string");
+string a = Console.ReadLine();
+Console.WriteLine("What character would you like removed?");
+int x = Convert.ToInt32(Console.ReadLine());
+x = x - 1;
+
+string b = a.Substring(0, x);
+string c = a.Substring(x + 1 );
+Console.WriteLine(b + c);
+
+Console.ReadKey();
