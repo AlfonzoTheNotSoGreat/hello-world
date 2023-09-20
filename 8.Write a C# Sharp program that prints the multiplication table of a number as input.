@@ -1,0 +1,28 @@
+//8.Write a C# Sharp program that prints the multiplication table of a number as input.
+Console.WriteLine("Please enter a number");
+int num = Convert.ToInt32(Console.ReadLine());
+
+Console.Write(num + " * 0 = ");
+Console.WriteLine( num * 0);
+Console.Write(num + " * 1 = ");
+Console.WriteLine(num * 1);
+Console.Write(num + " * 2 = ");
+Console.WriteLine(num * 2);
+Console.Write(num + " * 3 = ");
+Console.WriteLine(num * 3);
+Console.Write(num + " * 4 = ");
+Console.WriteLine(num * 4);
+Console.Write(num + " * 5 = ");
+Console.WriteLine(num * 5);
+Console.Write(num + " * 6 = ");
+Console.WriteLine(num * 6);
+Console.Write(num + " * 7 = ");
+Console.WriteLine(num * 7);
+Console.Write(num + " * 8 = ");
+Console.WriteLine(num * 8);
+Console.Write(num + " * 9 = ");
+Console.WriteLine(num * 9);
+Console.Write(num + " * 10 = ");
+Console.WriteLine(num * 10);
+
+Console.ReadKey();
