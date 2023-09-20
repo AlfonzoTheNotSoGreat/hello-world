@@ -1,0 +1,12 @@
+// 6. Write a C# Sharp program to print the output of the multiplication of three numbers entered by the user.
+
+Console.WriteLine("please input a number for multiplication");
+int one = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("please input a second number for multiplication");
+int two = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("please input a third number for multiplication");
+int three = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(one * two * three);
+
+Console.ReadKey();
