@@ -1,0 +1,17 @@
+//9. Write a C# Sharp program that takes four numbers as input to calculate and print the average.
+
+Console.WriteLine("Please enter a number");
+int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Please enter a number");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Please enter a number");
+int num3 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Please enter a number");
+int num4 = Convert.ToInt32(Console.ReadLine());
+
+int average = num + num2 + num3 + num4;
+average = average / 4;
+
+Console.WriteLine(average);
+
+Console.ReadKey();
