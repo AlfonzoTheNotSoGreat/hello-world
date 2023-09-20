@@ -1,0 +1,15 @@
+// 5 Write a C# Sharp program to swap two numbers.
+
+Console.WriteLine("Please enter a number");
+int one = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Please enter a second number");
+int two = Convert.ToInt32(Console.ReadLine());
+int temp = two;
+two = one;
+one = temp;
+
+
+Console.WriteLine(one);
+Console.Write("" + two);
+
+Console.ReadKey();
