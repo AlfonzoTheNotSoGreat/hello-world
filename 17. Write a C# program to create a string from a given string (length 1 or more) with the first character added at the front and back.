@@ -1,0 +1,8 @@
+//17. Write a C# program to create a string from a given string (length 1 or more) with the first character added at the front and back.
+
+string input = Console.ReadLine();
+string sub = input.Substring(0, 1);
+
+Console.WriteLine(sub+input+sub);
+
+Console.ReadKey();
