@@ -1,0 +1,17 @@
+//16. Write a C# program to create a new string from a given string where the first and last characters change their positions.
+Console.WriteLine("Please enter a string");
+string delta = Console.ReadLine();
+int count = 0;
+
+for(int i = 0; i < delta.Length; i++)
+{
+    count++;
+}
+
+string a = delta.Substring(0, 1);
+string b = delta.Substring(1, count - 2);
+string c = delta.Substring(count - 1);
+
+Console.WriteLine(c+b+a);
+
+Console.ReadKey();
