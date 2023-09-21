@@ -1,0 +1,21 @@
+//18. Write a C# program to check a pair of integers and return true if one is negative and one is positive.
+int input = Convert.ToInt32(Console.ReadLine());
+int inputTwo = Convert.ToInt32(Console.ReadLine());
+bool count = false;
+bool count2 = false;    
+
+if (input <= 0 || inputTwo <= 0)
+{
+    count = true;
+}
+if (input > 0 || inputTwo > 0)
+{
+    count2 = true;
+}
+
+if (count == true && count2 == true)
+{
+    Console.WriteLine("true");
+}
+
+Console.ReadKey();
